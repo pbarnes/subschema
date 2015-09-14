@@ -95,8 +95,8 @@ var configs = [
             //don't bundle the 'react' npm package with our bundle.js
             //but get it from a global 'React' variable
 
-            'react': 'React',
-            'react/addons': 'React',
+            'react': 'amd react',
+            'react/addons': 'amd react',
         }/*, {
             'react/lib/CSSCore': path.join(__dirname, 'node_modules/react/lib/CSSCore'),
             'react/lib/Object.assign': path.join(__dirname, 'node_modules/react/lib/Object.assign'),
